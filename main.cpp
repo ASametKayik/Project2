@@ -2,12 +2,10 @@
 #include <iostream>
 using namespace std;
 
-// Toplama
 double hesapla(double a, double b) {
     return a + b;
 }
 
-// Cikarma
 double hesapla(double a, double b, char islem) {
     if (islem == '-')
         return a - b;
@@ -15,12 +13,10 @@ double hesapla(double a, double b, char islem) {
     return a + b;
 }
 
-// Carpma
 double hesapla(int a, int b) {
     return a * b;
 }
 
-// Bolme
 double hesapla(double a, double b, int islem) {
     if (b == 0) {
         cout << "Hata: Sifira bolme yapilamaz!" << endl;
